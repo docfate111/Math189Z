@@ -92,7 +92,6 @@ def pca_transform(data, num_dims = 2):
     """
     Given a matrix of data, returns data projected onto num_dims principal components (use your pca() function)
     """
-    =pca(data)
     return transformed_data
 # In[13]:
 def plot_pca(data, graph_title='Transformed Data'):
